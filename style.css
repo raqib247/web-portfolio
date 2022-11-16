@@ -9,7 +9,15 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+    color: dimgray;
+    padding: 5px;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -27,6 +35,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -35,4 +44,34 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Professional-artist{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, rgb(155, 1, 186), rgb(81, 35, 173));
+    border-image-slice: 1;
+}
+#baby-airtist{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, rgb(12, 170, 206), rgb(75, 50, 126));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: small;
 }
